@@ -8,6 +8,4 @@ services:
       - ./html:/usr/share/nginx/html
     ports:
       - "8080:80"
-    depends_on:
-      - php-fpm
     restart: always
